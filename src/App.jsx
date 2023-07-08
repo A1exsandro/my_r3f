@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 import { Canvas } from '@react-three/fiber'
 import Box from './components/Box' 
 import Sphere from './components/Sphere' 
