@@ -8,6 +8,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Works from './components/Works'
+import StarsCanvas from './components/Stars'
+import Tech from './components/Tech'
 
 function App() { 
   
@@ -19,16 +21,21 @@ function App() {
           <Hero />
         </div>
 
-        <About />
-        <Works />
+        <div className="relative z-0"> 
+          <StarsCanvas />
 
-        <Canvas>
-          <ambientLight />
-          <pointLight position={[10, 10, 10]} />
-          <Box position={[-2, -1, 0]} />
-          <Box position={[2, -1, 0]} />
-          <Sphere />
-        </Canvas>
+          <About />
+          <Works />
+
+          <Canvas>
+            <ambientLight />
+            <pointLight position={[10, 10, 10]} />
+            {/* <Box position={[-2, -1, 0]} />
+            <Box position={[2, -1, 0]} />
+            <Sphere /> */}
+          </Canvas>
+          <Tech />
+        </div>
       </div>
     </BrowserRouter>
   )
