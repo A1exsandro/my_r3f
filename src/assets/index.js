@@ -1,5 +1,5 @@
 import backend from "./backend.png"
-import carrent from "./carrent.png"
+import dashboard from "./dashboard.png"
 import close from "./close.svg"
 import creator from "./creator.png"
 import github from "./github.png"
@@ -7,6 +7,7 @@ import goldmovies from "./goldmovies.png"
 import logo from "./logo.svg"
 import menu from "./menu.svg"
 import mobile from "./mobile.png"
+import phone3d from "./phone3d.png"
 import wait from "./wait.png"
 import web from "./web.png"
 
@@ -26,8 +27,8 @@ import threejs from "./tech/threejs.svg"
 
 
 export {
-  backend, carrent, close, creator, css, docker, figma, git, github, goldmovies,
-  html, javascript, logo, menu, mobile, mongodb, nodejs, reactjs, redux, 
+  backend, dashboard, close, creator, css, docker, figma, git, github, goldmovies,
+  html, javascript, logo, menu, mobile, mongodb, nodejs, phone3d, reactjs, redux, 
   tailwind, threejs, typescript, wait, web,  
 }
 

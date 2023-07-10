@@ -1,6 +1,6 @@
 import {
-  backend, carrent, creator, css, docker, figma, git, goldmovies,
-  html, javascript, mobile, mongodb, nodejs, reactjs, redux, 
+  backend, dashboard, creator, css, docker, figma, git, goldmovies,
+  html, javascript, mobile, mongodb, nodejs, phone3d, reactjs, redux, 
   tailwind, threejs, typescript, wait, web, 
 } from '../assets'
 
@@ -40,25 +40,25 @@ export const services = [
 
 export const projects = [
   {
-    name: "Car Rent",
+    name: "Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Responsive dashboard with vanilla java script, and switching from dark to light theme.",
     tags: [
       {
-        name: "react",
+        name: "Java Script",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/A1exsandro/template_html_css_js",
   },
   {
     name: "Gold Movies",
@@ -74,24 +74,24 @@ export const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: goldmovies,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/A1exsandro/movies-client",
   },
   {
-    name: "Wait",
+    name: "Rect 3d",
     description:
-      "Wait, soon.",
+      "A react app with 3d model and automatic scrolling. when you activate the scroll wheel, the model also appears.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -99,8 +99,29 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: phone3d,
+    source_code_link: "https://github.com/A1exsandro/phone3d",
+  },
+  {
+    name: "Alex's Portifolio",
+    description:
+      "A website under development, using react-router-dom, threejs, motion and more. Responsiveness and color harmony.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
     image: wait,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/A1exsandro/my_r3f",
   },
 ]
 

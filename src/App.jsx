@@ -25,7 +25,7 @@ function App() {
 
           <About />
           <Works /> 
-          <Tech />
+          { !isMobile && <Tech /> }
         </div>
       </div>
     </BrowserRouter>
