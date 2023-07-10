@@ -5,10 +5,12 @@ import About from './components/About'
 import Works from './components/Works'
 import StarsCanvas from './components/Stars'
 import Tech from './components/Tech'
+import { useIsMobile } from './contexts/IsMobileContext'
 
 import './App.css'
 
 function App() { 
+  const { isMobile } = useIsMobile()
   
   return (
     <BrowserRouter>
@@ -19,7 +21,7 @@ function App() {
         </div>
 
         <div className="relative z-0"> 
-          <StarsCanvas />
+          { !isMobile && <StarsCanvas /> }
 
           <About />
           <Works /> 
