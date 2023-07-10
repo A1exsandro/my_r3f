@@ -2,6 +2,7 @@ import './App.css'
 import { Canvas } from '@react-three/fiber'
 import Box from './components/Box' 
 import Sphere from './components/Sphere' 
+import ComputersCanvas from './components/Computers'
 
 function App() { 
   
@@ -19,6 +20,7 @@ function App() {
         <Box position={[2, -1, 0]} />
         <Sphere />
       </Canvas>
+      <ComputersCanvas />
     </>
   )
 }
