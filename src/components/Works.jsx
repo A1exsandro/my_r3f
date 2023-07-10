@@ -15,7 +15,10 @@ const ProjectCard = ({
   const { isMobile } = useIsMobile()
 
   const cardJsx = (
-    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+    <div 
+      className="bg-tertiary p-5 rounded-2xl aspect-[3/4] sm:w-[360px] w-full
+      flex flex-col justify-between"
+    >
       <div className="relative w-full h-[230px]">
         <img 
           src={image}

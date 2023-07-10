@@ -1,15 +1,12 @@
-import { BrowserRouter } from 'react-router-dom'
-import { Canvas } from '@react-three/fiber'
-import Box from './components/Box' 
-import Sphere from './components/Sphere' 
-
-import './App.css'
+import { BrowserRouter } from 'react-router-dom' 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Works from './components/Works'
 import StarsCanvas from './components/Stars'
 import Tech from './components/Tech'
+
+import './App.css'
 
 function App() { 
   
@@ -25,15 +22,7 @@ function App() {
           <StarsCanvas />
 
           <About />
-          <Works />
-
-          <Canvas>
-            <ambientLight />
-            <pointLight position={[10, 10, 10]} />
-            {/* <Box position={[-2, -1, 0]} />
-            <Box position={[2, -1, 0]} />
-            <Sphere /> */}
-          </Canvas>
+          <Works /> 
           <Tech />
         </div>
       </div>
