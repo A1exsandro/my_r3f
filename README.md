@@ -15,14 +15,15 @@
   * pt-BR_flag.png
   * en-US_flag.png
 * component
-  * Flag.js
-  * I18n.js
-  * index.js
-  * Translator.js
-  * locales
-    * en-Us.js
-    * pt-BR.js
+  * i18n
+    * Flag.js
+    * SelectI18n.js
     * index.js
+    * Translator.js
+    * locales
+      * en-Us.js
+      * pt-BR.js
+      * index.js
 
 ### Dependencies
 * npm install i18next react-i18next i18next-browser-languagedetector
