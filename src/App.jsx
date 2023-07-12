@@ -2,12 +2,13 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-import Works from './components/Works'
+import Projects from './components/Projects'
 import StarsCanvas from './components/Stars'
 import Tech from './components/Tech'
 import { useIsMobile } from './contexts/IsMobileContext'
 
 import './App.css' 
+import Footer from './components/Footer'
 
 function App() { 
   const { isMobile } = useIsMobile()
@@ -24,8 +25,10 @@ function App() {
           <StarsCanvas /> 
 
           <About />
-          <Works /> 
+          <Projects /> 
           { !isMobile && <Tech /> }
+
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
