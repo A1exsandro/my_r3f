@@ -1,3 +1,5 @@
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { useIsMobile } from '../contexts/IsMobileContext'
 import { motion } from 'framer-motion'
 
@@ -5,6 +7,7 @@ import { styles } from '../styles'
 import  ComputersCanvas  from './Computers'
 
 const Hero = () => {
+  const { t } = useTranslation()
   const { isMobile } = useIsMobile()
 
   return (
@@ -19,11 +22,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[#915eff]">Alexsandro</span>
+            {t('home.greetings')} <span className="text-[#915eff]">Alexsandro</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden"/>
-            interfaces and web applications.
+            {t('home.message')}
           </p>
         </div>
       </div>
