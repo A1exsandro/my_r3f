@@ -1,4 +1,5 @@
 import React from 'react' 
+import { useTranslation } from 'react-i18next'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 
@@ -45,14 +46,16 @@ const ServiceCard = ({ index, title, icon }) => {
 }
 
 const About = () => {
+  const { t } = useTranslation()
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Introduction
+          {t('about.subtitle')}
         </p>
         <h2 className={styles.sectionHeadText}>
-          Overview.
+          {t('about.title')}
         </h2>
       </motion.div>
 
@@ -60,11 +63,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and 
-        JavaScript, and expertise in frameworks like React, Node.js, and Three.js.
-        I'm a quick learner and collaborate closely with clients to create 
-        efficient, scalable, and user-friendly solutions that solve real-world 
-        problems. Let's work together to bring your ideas to life!
+        {t('about.message')}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

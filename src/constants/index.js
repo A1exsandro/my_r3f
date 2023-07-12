@@ -10,8 +10,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -178,4 +178,8 @@ export const technologies = [
     name: "docker",
     icon: docker,
   },
+]
+
+export const networks = [
+  "LinkedIn", "GitHub", "Instagram", "Facebook"
 ]
