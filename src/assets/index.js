@@ -22,14 +22,12 @@ import nodejs from "./tech/nodejs.png"
 import reactjs from "./tech/reactjs.png"
 import redux from "./tech/redux.png"
 import tailwind from "./tech/tailwind.png"
-import typescript from "./tech/typescript.png"
-import threejs from "./tech/threejs.svg"
-
+import typescript from "./tech/typescript.png" 
 
 export {
   backend, dashboard, close, creator, css, docker, figma, git, github, goldmovies,
   html, javascript, logo, menu, mobile, mongodb, nodejs, phone3d, reactjs, redux, 
-  tailwind, threejs, typescript, wait, web,  
+  tailwind, typescript, wait, web,  
 }
 
   

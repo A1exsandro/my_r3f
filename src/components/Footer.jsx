@@ -21,7 +21,9 @@ const Footer = () => {
             `}
             onClick={() => setActive(network)}
           >
-            <a href={`#${network}`}>{network}</a>
+            <a onClick={() => window.open(network.link, "_blank")}>
+              {network.name}
+            </a>
           </li>
         ))}
       </ul>

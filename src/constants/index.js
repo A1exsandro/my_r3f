@@ -1,7 +1,7 @@
 import {
   backend, dashboard, creator, css, docker, figma, git, goldmovies,
   html, javascript, mobile, mongodb, nodejs, phone3d, reactjs, redux, 
-  tailwind, threejs, typescript, wait, web, 
+  tailwind, typescript, wait, web, 
 } from '../assets'
 
 export const navLinks = [
@@ -161,11 +161,7 @@ export const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  }, 
   {
     name: "git",
     icon: git,
@@ -180,6 +176,21 @@ export const technologies = [
   },
 ]
 
-export const networks = [
-  "LinkedIn", "GitHub", "Instagram", "Facebook"
+export const networks = [ 
+  {
+    name: "LinkedIn",
+    link: "https://linkedin.com/in/alexsandro-antônio-abaa5520b",
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com/A1exsandro/my_r3f",
+  },
+  {
+    name: "Instagram",
+    link: "https://instagram.com/alexsandroantonio3?igshid=MzNlNGNkZWQ4Mg",
+  },
+  {
+    name: "Facebook",
+    link: "https://www.facebook.com/alexsandro.sc.7",
+  },
 ]
