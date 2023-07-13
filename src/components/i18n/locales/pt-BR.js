@@ -19,7 +19,7 @@ export default {
       React, Node.js, RubyOnRails, Spring Boot e Three.js.\
       Aprendo rápido e colaboro de perto com os clientes para criar soluções \
       eficientes, escaláveis ​e fáceis de usar que resolvem problemas do mundo \
-      real problemas. Vamos trabalhar juntos para dar vida às suas ideias!"
+      real. Vamos trabalhar juntos para dar vida às suas ideias!"
     }
   }
 }
